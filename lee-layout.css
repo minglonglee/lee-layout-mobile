@@ -30,13 +30,11 @@ body {
 }
 
 a {
-	color: #0096ff;
 	text-decoration: none;
 }
 a:hover,
 a:focus {
 	color: #0096ff;
-	text-decoration: underline;
 }
 
 img { vertical-align: middle; }
@@ -1323,6 +1321,48 @@ sub {bottom: -.25em;}
 .h90p { height: 90%; }
 .h95p { height: 95%; }
 .h100p { height: 100%; }
+
+.lh20 { line-height: 20px }
+.lh22 { line-height: 22px }
+.lh24 { line-height: 24px }
+.lh26 { line-height: 26px }
+.lh28 { line-height: 28px }
+.lh30 { line-height: 30px }
+.lh32 { line-height: 32px }
+.lh34 { line-height: 34px }
+.lh36 { line-height: 36px }
+.lh38 { line-height: 38px }
+.lh40 { line-height: 40px }
+.lh42 { line-height: 42px }
+.lh44 { line-height: 44px }
+.lh46 { line-height: 46px }
+.lh48 { line-height: 48px }
+.lh50 { line-height: 50px }
+.lh52 { line-height: 52px }
+.lh54 { line-height: 54px }
+.lh56 { line-height: 56px }
+.lh58 { line-height: 58px }
+.lh60 { line-height: 60px }
+.lh62 { line-height: 62px }
+.lh64 { line-height: 64px }
+.lh66 { line-height: 66px }
+.lh68 { line-height: 68px }
+.lh70 { line-height: 70px }
+.lh72 { line-height: 72px }
+.lh74 { line-height: 74px }
+.lh76 { line-height: 76px }
+.lh78 { line-height: 78px }
+.lh80 { line-height: 80px }
+.lh82 { line-height: 82px }
+.lh84 { line-height: 84px }
+.lh86 { line-height: 86px }
+.lh88 { line-height: 88px }
+.lh90 { line-height: 90px }
+.lh92 { line-height: 92px }
+.lh94 { line-height: 94px }
+.lh96 { line-height: 96px }
+.lh98 { line-height: 98px }
+.lh100 { line-height: 100px }
 
 /* marginTop 5px ~ 50px */
 .mg-t5,.mg-T5 { margin-top: 5px; }
