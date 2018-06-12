@@ -95,9 +95,9 @@ Version: v2018.06
 .actionBtn,.btn-input,.btn-select {
     cursor: pointer;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .btn {
@@ -111,9 +111,9 @@ Version: v2018.06
     white-space: nowrap;
     vertical-align: middle;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .btn-xl { font-size: 20px; line-height: 1.4; padding: 10px 22px; }
