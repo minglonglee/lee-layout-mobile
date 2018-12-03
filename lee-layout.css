@@ -43,6 +43,7 @@ img { border: none; }
 input:focus,
 select:focus,
 textarea:focus { outline: none; }
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 1000px white inset; } 
 
 ul li { list-style: none; }
 
