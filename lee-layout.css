@@ -44,6 +44,16 @@ a:hover {
 
 img { border: none; }
 
+input, button {
+	border:0;
+	outline:none;
+}
+
+input[type=button],
+input[type=submit] {
+	cursor: pointer;
+}
+
 input:focus,
 select:focus,
 textarea:focus { outline: none; }
@@ -59,7 +69,7 @@ td,
 th { padding: 0; }
 /***** reset end *****/
 
-/***** baseLayout begin *****/
+/***** base layout begin *****/
 
 /* border-radius ++ 1px ~ 50px; */
 .br1 { border-radius: 1px; }
@@ -3578,7 +3588,15 @@ th { padding: 0; }
 .z-8000 { z-index: 8000; }
 .z-9000 { z-index: 9000; }
 .z-10000 { z-index: 10000; }
-/***** baseLayout end *****/
+
+/***** base layout end *****/
+
+/* mouse style begin */
+
+.mouse-pointer { cursor: pointer; }
+.mouse-move { cursor: move; }
+
+/* mouse style end */
 
 /***** textStyle begin *****/
 sub,
@@ -3588,8 +3606,8 @@ sup {
 	vertical-align: baseline;
 	position: relative;
 }
-sup {top: -.5em;}
-sub {bottom: -.25em;}
+sup { top: -.5em; }
+sub { bottom: -.25em; }
 
 .text-bold { font-weight: bold; }
 .text-break { word-break: break-all; }
@@ -3607,12 +3625,3 @@ sub {bottom: -.25em;}
 	text-overflow: ellipsis;
 }
 /***** textStyle end *****/
-input, button {
-	border:0;
-	outline:none;
-}
-.btn-action,
-input[type=button],
-input[type=submit] {
-	cursor: pointer;
-}
