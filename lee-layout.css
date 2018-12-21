@@ -11,18 +11,15 @@
 	box-sizing: border-box;
 }
 
-pre { white-space: pre-wrap; }
-
-body, html, pre {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+html {
 	font-size: 14px;
-	font-weight: 400;
-	-webkit-font-smoothing: antialiased;
 }
 
-ul, p, h1, h2, h3, h4, h5 {
+body { font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif; }
+
+pre { white-space: pre-wrap; }
+
+body, ul, p, h1, h2, h3, h4, h5 {
 	margin: 0;
 	padding: 0;
 }
