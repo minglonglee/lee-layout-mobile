@@ -2363,15 +2363,12 @@ th { padding: 0; }
 .pd-lr50 { padding-left: 50px; padding-right: 50px; }
 
 /* display */
-.show { display: block!important; }
 .hide { display: none!important; }
-.locked,
-.disabled {
-	cursor: not-allowed!important;
-	pointer-events: none;
-}
-.block { display: block; }
+.show { display: block!important; }
+.none { display: none; }
+.inline { display: inline; }
 .inline-block { display: inline-block; }
+.block { display: block; }
 .block-center { margin: 0 auto; }
 .overflow-hidden { overflow: hidden; }
 .overflow-scroll { overflow: auto; }
@@ -3793,10 +3790,13 @@ th { padding: 0; }
 /***** base layout end *****/
 
 /* mouse style begin */
-
 .mouse-pointer { cursor: pointer; }
 .mouse-move { cursor: move; }
-
+.mouse-help { cursor: help; }
+.click-locked,
+.click-disabled {
+	pointer-events: none;
+}
 /* mouse style end */
 
 /***** textStyle begin *****/
