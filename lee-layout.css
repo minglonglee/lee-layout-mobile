@@ -2852,7 +2852,7 @@ th { padding: 0; }
 .t98 { top: 98px; }
 .t100 { top: 100px; }
 
-/* top +10 110px ~ 300px */
+/* top +10 110px ~ 500px */
 .t110 { top: 110px; }
 .t120 { top: 120px; }
 .t130 { top: 130px; }
@@ -3055,7 +3055,7 @@ th { padding: 0; }
 .t-m98 { top: -98px; }
 .t-m100 { top: -100px; }
 
-/* top -10 -110px ~ -300px */
+/* top -10 -110px ~ -500px */
 .t-m110 { top: -110px; }
 .t-m120 { top: -120px; }
 .t-m130 { top: -130px; }
@@ -3157,7 +3157,7 @@ th { padding: 0; }
 .l98 { left: 98px; }
 .l100 { left: 100px; }
 
-/* left +10 110px ~ 300px */
+/* left +10 110px ~ 500px */
 .l110 { left: 110px; }
 .l120 { left: 120px; }
 .l130 { left: 130px; }
@@ -3178,6 +3178,26 @@ th { padding: 0; }
 .l280 { left: 280px; }
 .l290 { left: 290px; }
 .l300 { left: 300px; }
+.l310 { left: 310px; }
+.l320 { left: 320px; }
+.l330 { left: 330px; }
+.l340 { left: 340px; }
+.l350 { left: 350px; }
+.l360 { left: 360px; }
+.l370 { left: 370px; }
+.l380 { left: 380px; }
+.l390 { left: 390px; }
+.l400 { left: 400px; }
+.l410 { left: 410px; }
+.l420 { left: 420px; }
+.l430 { left: 430px; }
+.l440 { left: 440px; }
+.l450 { left: 450px; }
+.l460 { left: 460px; }
+.l470 { left: 470px; }
+.l480 { left: 480px; }
+.l490 { left: 490px; }
+.l500 { left: 500px; }
 
 /* left ++ 1% ~ 100% */
 .l1p { left: 1%; }
@@ -3360,7 +3380,7 @@ th { padding: 0; }
 .l-m98 { left: -98px; }
 .l-m100 { left: -100px; }
 
-/* left -10 -110px ~ -300px */
+/* left -10 -110px ~ -500px */
 .l-m110 { left: -110px; }
 .l-m120 { left: -120px; }
 .l-m130 { left: -130px; }
@@ -3381,6 +3401,26 @@ th { padding: 0; }
 .l-m280 { left: -280px; }
 .l-m290 { left: -290px; }
 .l-m300 { left: -300px; }
+.l-m310 { left: -310px; }
+.l-m320 { left: -320px; }
+.l-m330 { left: -330px; }
+.l-m340 { left: -340px; }
+.l-m350 { left: -350px; }
+.l-m360 { left: -360px; }
+.l-m370 { left: -370px; }
+.l-m380 { left: -380px; }
+.l-m390 { left: -390px; }
+.l-m400 { left: -400px; }
+.l-m410 { left: -410px; }
+.l-m420 { left: -420px; }
+.l-m430 { left: -430px; }
+.l-m440 { left: -440px; }
+.l-m450 { left: -450px; }
+.l-m460 { left: -460px; }
+.l-m470 { left: -470px; }
+.l-m480 { left: -480px; }
+.l-m490 { left: -490px; }
+.l-m500 { left: -500px; }
 
 /* right +1 0 ~ 50px */
 .r0 { right: 0; }
@@ -3462,7 +3502,7 @@ th { padding: 0; }
 .r98 { right: 98px; }
 .r100 { right: 100px; }
 
-/* right +10 110px ~ 300px */
+/* right +10 110px ~ 600px */
 .r110 { right: 110px; }
 .r120 { right: 120px; }
 .r130 { right: 130px; }
@@ -3483,6 +3523,26 @@ th { padding: 0; }
 .r280 { right: 280px; }
 .r290 { right: 290px; }
 .r300 { right: 300px; }
+.r310 { right: 310px; }
+.r320 { right: 320px; }
+.r330 { right: 330px; }
+.r340 { right: 340px; }
+.r350 { right: 350px; }
+.r360 { right: 360px; }
+.r370 { right: 370px; }
+.r380 { right: 380px; }
+.r390 { right: 390px; }
+.r400 { right: 400px; }
+.r410 { right: 410px; }
+.r420 { right: 420px; }
+.r430 { right: 430px; }
+.r440 { right: 440px; }
+.r450 { right: 450px; }
+.r460 { right: 460px; }
+.r470 { right: 470px; }
+.r480 { right: 480px; }
+.r490 { right: 490px; }
+.r500 { right: 500px; }
 
 /* right ++ 0 ~ 100% */
 .r1p { right: 1%; }
@@ -3665,7 +3725,7 @@ th { padding: 0; }
 .r-m98 { right: -98px; }
 .r-m100 { right: -100px; }
 
-/* right -10 -110px ~ -300px */
+/* right -10 -110px ~ -500px */
 .r-m110 { right: -110px; }
 .r-m120 { right: -120px; }
 .r-m130 { right: -130px; }
@@ -3686,6 +3746,26 @@ th { padding: 0; }
 .r-m280 { right: -280px; }
 .r-m290 { right: -290px; }
 .r-m300 { right: -300px; }
+.r-m310 { right: -310px; }
+.r-m320 { right: -320px; }
+.r-m330 { right: -330px; }
+.r-m340 { right: -340px; }
+.r-m350 { right: -350px; }
+.r-m360 { right: -360px; }
+.r-m370 { right: -370px; }
+.r-m380 { right: -380px; }
+.r-m390 { right: -390px; }
+.r-m400 { right: -400px; }
+.r-m410 { right: -410px; }
+.r-m420 { right: -420px; }
+.r-m430 { right: -430px; }
+.r-m440 { right: -440px; }
+.r-m450 { right: -450px; }
+.r-m460 { right: -460px; }
+.r-m470 { right: -470px; }
+.r-m480 { right: -480px; }
+.r-m490 { right: -490px; }
+.r-m500 { right: -500px; }
 
 /* bottom +1 0 ~ 50px */
 .b0 { bottom: 0; }
