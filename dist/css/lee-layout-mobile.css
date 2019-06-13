@@ -1,4 +1,8 @@
-/***** reset begin *****/
+/*
+Author: LEE
+Version: v2019.06
+*/
+
 /***** reset begin *****/
 * {
 	-webkit-box-sizing: border-box;
@@ -97,6 +101,33 @@ th { padding: 0; }
 	content: '';
 	display: block;
 }
+
+/***** textStyle begin *****/
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+	position: relative;
+}
+sup {top: -.5em;}
+sub {bottom: -.25em;}
+
+.text-break { word-break: break-all; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.text-nowrap { white-space: nowrap; }
+.text-lowercase {text-transform: lowercase; }
+.text-uppercase {text-transform: uppercase; }
+.text-capitalize {text-transform: capitalize; }
+.text-ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/***** textStyle end *****/
 
 /***** baseLayout begin *****/
 
@@ -2077,30 +2108,3 @@ th { padding: 0; }
 .z-10000 { z-index: 10000; }
 
 /***** baseLayout end *****/
-
-/***** textStyle begin *****/
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    vertical-align: baseline;
-    position: relative;
-}
-sup {top: -.5em;}
-sub {bottom: -.25em;}
-
-.text-break { word-break: break-all; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-.text-center { text-align: center; }
-.text-justify { text-align: justify; }
-.text-nowrap { white-space: nowrap; }
-.text-lowercase {text-transform: lowercase; }
-.text-uppercase {text-transform: uppercase; }
-.text-capitalize {text-transform: capitalize; }
-.text-ellipsis {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-/***** textStyle end *****/
