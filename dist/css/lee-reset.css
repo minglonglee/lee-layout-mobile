@@ -1,0 +1,77 @@
+/*
+Author: LEE
+Version: v2020.12.19
+*/
+
+/***** reset begin *****/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html { font-size: 14px; }
+
+body { font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif; }
+
+pre { white-space: pre-wrap; }
+
+body, ul, h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+
+button, input, select, textarea {
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0096ff;
+}
+
+img { border: none; vertical-align: top; }
+
+input, button {
+	border:0;
+	outline:none;
+}
+
+button,
+input[type=button],
+input[type=submit] {
+	cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus { outline: none; }
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 1000px white inset; }
+
+
+button, input { border: none; border-radius: 0; padding: 0; -webkit-appearance: none; } /*/*去除button,input默认样式*/
+input:focus, textarea:focus { outline: none; } /*去除默认发光边框*/
+input:focus { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-modify: read-write-plaintext-only; }/*去除默认高光样式*/
+
+ul li { list-style: none; }
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+td,
+th { padding: 0; }
+/***** reset end *****/

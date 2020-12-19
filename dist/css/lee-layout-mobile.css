@@ -295,6 +295,7 @@ sub {bottom: -.25em;}
 .br120 { border-radius: 2.4rem; }
 
 /* font-size +2 28px ~ 120px 1rem = 50px */
+.f26 { font-size: 0.52rem; }
 .f28 { font-size: 0.56rem; }
 .f30 { font-size: 0.6rem; }
 .f32 { font-size: 0.64rem; }
